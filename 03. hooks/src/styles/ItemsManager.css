@@ -1,0 +1,29 @@
+.items-container {
+    height: 100vh;
+    height: 100svh;
+    width: min(40em, 100%);
+    margin: auto;
+    overflow: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    .app-title {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+    .items-wrapper {
+        margin-top: 1em;
+        flex: 1;
+        overflow: auto;
+        position: relative;
+        border: 1px solid rgb(0, 0, 0);
+        scrollbar-width: none;
+
+    }
+
+}

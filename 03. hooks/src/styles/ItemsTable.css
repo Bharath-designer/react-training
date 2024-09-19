@@ -1,0 +1,47 @@
+.items-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+        text-align: center;
+        padding: .5em;
+    }
+    thead tr {
+        position: sticky;
+        top: 0;
+        border-bottom: 1px solid black;
+        background: white;
+    }
+
+    th {
+        cursor: pointer;
+        user-select: none;
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .3em;
+    
+            span {    
+                min-width: .5em;
+                aspect-ratio: 1;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    th.active {
+        div {
+            span {
+                background: green;
+            }
+        }
+    }
+   
+
+    tbody tr:nth-child(2n) {
+        background: rgb(205, 205, 205);
+    }
+    
+}
+
