@@ -12,4 +12,4 @@
 - Debouncing effect (for search)
 - Custom Hooks (for filtering)
 
-#### View live [here](https://bharath-designer.github.io/react-training/03.%20hooks/dist/)
+#### View live [here](https://bharath-designer.github.io/react-training/03.%20hooks/dist/index.html)
