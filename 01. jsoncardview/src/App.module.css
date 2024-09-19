@@ -1,0 +1,33 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20em,1fr));
+    gap: .5em;
+}
+
+
+.card {
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: .25em;
+}
+
+.like-dislike-container {
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.like-action, .dislike-action {
+    display: flex;
+    gap: .3em;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+        width: 1.5em;
+    }
+}
+
+.dislike-action img{
+    transform: rotate(180deg);
+}
