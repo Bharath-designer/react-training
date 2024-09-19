@@ -1,4 +1,18 @@
 .action-button-container {
     display: flex;
     gap: .5em;
+    margin-top: 1em;
+
+    button {
+        background: rgb(9, 108, 9);
+        border: 1px solid black;
+        cursor: pointer;
+        border: none;
+        color: white;
+
+    }
+
+    button.delete {
+        background: red;
+    }
 }
