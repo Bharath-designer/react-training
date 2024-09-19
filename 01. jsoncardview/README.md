@@ -2,5 +2,5 @@
 
 
 
-View live on [live](https://github.com)
+View live on [live](https://bharath-designer.github.io/react-training/01.%20jsoncardview/dist/)
 

@@ -7,7 +7,7 @@ function App() {
   const [data, setData] = useState([])
 
   const fetchData = async () => {
-    const rawData = await fetch("/data.json")
+    const rawData = await fetch("https://bharath-designer.github.io/react-training/01.%20jsoncardview/dist/data.json")
     const result = await rawData.json()
 
     setData(result.posts)
