@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 
 import FilterControls from './FilterControls'
 
-import { ItemContext } from '../context/ItemsContext.jsx'
 import ItemsTable from './ItemsTable.jsx'
 
 import "../styles/ItemsManager.css"

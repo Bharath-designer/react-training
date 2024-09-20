@@ -1,0 +1,15 @@
+- App
+    - SideNav
+        - NavContainer
+            - NavItem
+    - MainWindow 
+        - TopNav
+            - MenuButton
+        - BoardMenuBar
+        - BoardsContainer
+            -BoardColumn
+                - BoardCard
+                    - Hashtag
+                    - CardActionButton
+                    - Avatar
+        
