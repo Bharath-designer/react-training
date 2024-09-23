@@ -1,0 +1,11 @@
+.banner-container {
+    display: flex;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: auto;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
